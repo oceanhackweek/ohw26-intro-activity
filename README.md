@@ -105,9 +105,18 @@ git switch -c intro-YOURHANDLE
 ```
 
 **3. Create your intro file** in the `introductions/` folder, named for your
-GitHub handle, e.g. `introductions/sorochak.md`. Write a couple of lines: your
-name, where you're from, your institution, and your favourite ice cream (or
-dessert). You can make the file in the JupyterLab file browser or the terminal.
+GitHub handle, e.g. `introductions/sorochak.md`. Two ways, pick whichever you like:
+
+- **File browser (what we'll demo):** in the left panel, double-click into the
+  `introductions` folder *first*, then right-click → New File to make your file there. 
+  Double-click it to open an editor tab, type, and save with **Cmd/Ctrl-S**. 
+  Making it *inside* the `introductions` folder matters — that's where git expects it.
+
+- **Terminal:** `nano introductions/YOURHANDLE.md` (save/exit: Ctrl-O, Enter,
+  Ctrl-X).
+
+Write a couple of lines: your name, where you're from, your institution, and
+your favourite dessert.
 
 **4. See what git noticed:**
 
