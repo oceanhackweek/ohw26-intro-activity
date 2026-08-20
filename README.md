@@ -1,9 +1,7 @@
 # OceanHackWeek 2026 — Intro to Git & GitHub
 
-A live, type-along introduction to git and GitHub. **Everyone works in this one
-repository at the same time.** That is on purpose: we are going to make a few
-merge conflicts happen here, in a safe place with helpers in the room, so they
-are not scary when they show up during project work later in the week.
+An introduction to git and GitHub. Everyone works in this repository at the same time.
+We are going to make a few merge conflicts happen here, we're going to practice resolving them here, so you already know what to do when they show up later in the week.
 
 > Adapted from the [OHW22 NE intro activity](https://github.com/oceanhackweek/ohw22-NE-intro-activity)
 > by Catherine Mitchell, itself heavily borrowed from Alex Kerney's
@@ -12,19 +10,17 @@ are not scary when they show up during project work later in the week.
 **Before we start, you should have:**
 - Logged in to CryoCloud (`hub.cryointhecloud.com`) and opened a **Terminal**
   (Launcher → Other → Terminal)
-- Working git authentication — see **[SETUP.md](SETUP.md)**. If your setup is
-  broken, raise your hand now. A facilitator will get you going.
+- Working git authentication — see **[SETUP.md](SETUP.md)**.
 
 ## Resources
 
-Background reading from the OHW site. These are general references — for how to
-log in to **our** hub (CryoCloud) and set up git auth, use [SETUP.md](SETUP.md),
+Background reading from the OHW site. These are general references for how to
+log in to our hub (CryoCloud) and set up git auth, use [SETUP.md](SETUP.md),
 which is current for OHW26.
 
 - [Git](https://oceanhackweek.github.io/resources/prep/git.html) — installing git
-  and the basic workflow. (It walks through a *fork* workflow; today we use a
-  shared-repo + branch approach, so treat forks there as optional / for
-  later.)
+  and the basic workflow. (It walks through a fork workflow; today we use a
+  shared-repo + branch approach.)
 - [GitHub](https://oceanhackweek.github.io/resources/prep/github.html) — why
   GitHub, organizations, and teams.
 - [JupyterHub](https://oceanhackweek.github.io/resources/prep/jupyterhub.html) —
