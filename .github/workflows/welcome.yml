@@ -28,4 +28,4 @@ jobs:
                 `opened your issue. Work through your checklist above. See you on the other side of a merge`,
                 `conflict.`
               ].join('\n')
-            });`
+            });
