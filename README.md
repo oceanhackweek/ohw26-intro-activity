@@ -1,7 +1,7 @@
 # OceanHackWeek 2026 — Intro to Git & GitHub
 
 An introduction to git and GitHub. Everyone works in this repository at the same time.
-We are going to make a few merge conflicts happen here, we're going to practice resolving them here, so you already know what to do when they show up later in the week.
+We're going to make a few merge conflicts happen on purpose and practice resolving them, so you already know what to do when they show up later in the week.
 
 > Adapted from the [OHW22 NE intro activity](https://github.com/oceanhackweek/ohw22-NE-intro-activity)
 > by Catherine Mitchell, itself heavily borrowed from Alex Kerney's
@@ -14,7 +14,7 @@ We are going to make a few merge conflicts happen here, we're going to practice 
 
 ## Resources
 
-Background reading from the OHW site. These are general references for how to
+Background reading from the OHW site. These are general references. For how to
 log in to our hub (CryoCloud) and set up git auth, use [SETUP.md](SETUP.md),
 which is current for OHW26.
 
@@ -44,19 +44,6 @@ moves your work between these four places:
 
 `git status` tells you which box your stuff is in right now. When you're lost,
 run `git status`.
-
----
-
-## One-time git setup (skip if you already did this)
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "the-email-you-used-for-github@example.com"
-git config --global pull.rebase false   # <-- confirm value for OHW26 (see SETUP.md)
-git config --global init.defaultBranch main
-```
-
-Check it: `git config --list`
 
 ---
 
