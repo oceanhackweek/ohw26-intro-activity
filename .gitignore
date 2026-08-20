@@ -1,0 +1,15 @@
+# Jupyter creates these whenever you open a notebook on the hub — never commit them
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# OS cruft
+.DS_Store
+
+# Data files are usually too big for git — keep them out
+*.nc
+*.csv
+*.zarr/

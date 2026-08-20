@@ -1,0 +1,31 @@
+name: Welcome new intro issues
+
+# Runs every time someone opens an issue. Posts a friendly comment.
+# This is the "automation just replied to me" moment in the tutorial.
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const user = context.issue.user.login;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                `Welcome aboard, @${user}!`,
+                ``,
+                `A GitHub Action posted this comment automatically the moment you`,
+                `opened your issue. Work through your checklist above. See you on the other side of a merge`,
+                `conflict.`
+              ].join('\n')
+            });`
