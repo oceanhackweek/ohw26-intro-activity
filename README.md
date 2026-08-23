@@ -181,9 +181,10 @@ git commit -m "Sign the roll call — YOURHANDLE"
 git push -u origin rollcall-YOURHANDLE
 ```
 
-**5. Open a PR and merge it.** If your PR merges cleanly, great — you were early.
-If GitHub says **"This branch has conflicts that must be resolved,"** read the
-next section.
+**5. Open a PR and merge it.** A few early folks will merge cleanly, but most of
+you will see **"This branch has conflicts that must be resolved."** That's expected,
+and it's the whole point of Round 2, head to the next section and we'll fix it
+together.
 
 ---
 
@@ -220,7 +221,7 @@ git push
 
 Refresh your PR, the conflict is gone and you can merge.
 
-**See what just happened:** run `git log --oneline --graph --all` to see the branch/merge tree — your branch and everyone else's splitting off `main` and merging back in.
+**See what just happened:** run `git log --oneline --graph --all` to see the branch/merge tree, — your branch and everyone else's splitting off `main` and merging back in.
 
 ---
 
