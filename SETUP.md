@@ -82,5 +82,5 @@ of the tutorial.
 ## When you're done for the day
 
 Shut your server down so it isn't billing idle compute: **File → Hub Control
-Panel → Stop My Server** (or go to `https://hub.cryointhecloud.com/hub/home`).
+Panel → Stop My Server** (or go to `https://hub.crqyointhecloud.com/hub/home`).
 Stopping the server does **not** delete anything in your home directory.

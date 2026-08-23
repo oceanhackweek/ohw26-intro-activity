@@ -215,7 +215,7 @@ arrange the rows how you want). Then:
 
 ```bash
 git add roll_call.md
-git commit                  # finishes the merge
+git commit -m "Resolve roll call conflict"
 git push
 ```
 
