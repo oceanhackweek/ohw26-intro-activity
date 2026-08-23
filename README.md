@@ -218,8 +218,9 @@ git commit                  # finishes the merge
 git push
 ```
 
-Refresh your PR — the conflict is gone and you can merge. That's it. You just did
-the thing everyone's scared of.
+Refresh your PR, the conflict is gone and you can merge.
+
+**See what just happened:** run `git log --oneline --graph --all` to see the branch/merge tree — your branch and everyone else's splitting off `main` and merging back in.
 
 ---
 
