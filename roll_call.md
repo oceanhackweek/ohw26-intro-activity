@@ -5,4 +5,4 @@
 to one line: `| handle | where you're from | one word |`
 
 --- sign below ---
-| your-handle | where you're from | one word |
+| ejay234 | saipan | one |
