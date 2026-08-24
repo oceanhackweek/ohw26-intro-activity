@@ -5,11 +5,15 @@
 to one line: `| handle | where you're from | one word |`
 
 --- sign below ---
+<<<<<<< HEAD
 | dempsey-cmar| Halifax | bridge4 |
+=======
+| @jimothy-dev | Tacoma, WA | preposterous |
+| rwoodside | Halifax, NS | shark |
+| dempsey-cmar | Halifax, NS | bridge4 |
 | klankers | Seattle | Chrysanthemum |
 | linhoangce | Vancouver | grah |
 | ejay234 | saipan | one |
 | hirnas | Van/Tyo | hi |
-
-
+| Bean | Lake County, IL | volleyball | 
 
