@@ -50,7 +50,7 @@ run `git status`.
 ## Round 0 — open your intro issue
 
 On this repo's **Issues** tab, click **New issue**. Title it
-`Introduce YOUR NAME`. Paste this checklist into the body and submit:
+`Introduce YOUR NAME`. Paste this checklist into the body and Create:
 
 ```markdown
 - [ ] Open this issue
