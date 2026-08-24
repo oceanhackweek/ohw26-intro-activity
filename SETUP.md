@@ -34,8 +34,8 @@ session, let us know and a facilitator will help get you unstuck.
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "the-email-you-used-for-github@example.com"
-git config --global core.pager cat      # the hub has no 'less'; this stops git log/config erroring
-git config --global pull.rebase false
+git config --global core.pager cat      # print git output straight to the terminal (no pager to get stuck in)
+git config --global pull.rebase false   # on 'git pull', merge remote changes instead of rebasing (avoids a pull error)
 ```
 
 ## Authenticating git
