@@ -6,6 +6,7 @@ to one line: `| handle | where you're from | one word |`
 
 --- sign below ---
 | dempsey-cmar| Halifax | bridge4 |
+| klankers | Seattle | Chrysanthemum |
 | linhoangce | Vancouver | grah |
 | ejay234 | saipan | one |
 | hirnas | Van/Tyo | hi |
