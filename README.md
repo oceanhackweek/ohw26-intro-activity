@@ -1,5 +1,7 @@
 # OceanHackWeek 2026 — Intro to Git & GitHub
 
+Test chanfge for tutorial
+
 An introduction to git and GitHub. Everyone works in this repository at the same time.
 We're going to make a few merge conflicts happen on purpose and practice resolving them, so you already know what to do when they show up later in the week.
 
