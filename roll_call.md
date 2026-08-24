@@ -5,6 +5,7 @@
 to one line: `| handle | where you're from | one word |`
 
 --- sign below ---
+| @jimothy-dev | Tacoma, WA | preposterous |
 | rwoodside | Halifax, NS | shark |
 | klankers | Seattle | Chrysanthemum |
 | linhoangce | Vancouver | grah |
